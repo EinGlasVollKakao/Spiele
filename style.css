@@ -1,0 +1,38 @@
+.grid-item {
+    margin: 10px;
+    background-color: #ff608f;
+    border-radius: 10px;
+    padding: 6px;
+    transition: transform .1s;
+    display: inline-block;
+}
+
+.info {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    display: none;
+    width: 100%;
+    background-color: #e81e62;
+    border-radius: 0 0 10px 10px;
+}
+
+.img-fluid {
+    border-radius: 6px;
+}
+
+.grid-item:hover {
+    background-color: #e81e62;
+    border-radius: 10px 10px 0 0;
+    transform: scale(1.05);
+    z-index: 10;
+}
+
+.grid-item:hover .info {
+    display: block;
+}
+
+
+.container {
+    margin-top: 10px;
+}
